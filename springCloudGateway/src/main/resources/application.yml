@@ -1,0 +1,19 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: springCloudGateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: Microservice1
+              uri: http://localhost:9099/
+              predicates:
+              - Path=/service1/**
+            - id: Microservice2
+              uri: http://localhost:9098/
+              predicates:
+              - Path=/service2/**
