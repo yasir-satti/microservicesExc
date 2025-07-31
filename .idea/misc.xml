@@ -8,7 +8,7 @@
         <option value="$PROJECT_DIR$/microservices/pom.xml" />
         <option value="$PROJECT_DIR$/springCloudGateway/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
-        <option value="$PROJECT_DIR$/kafkaSubscribe/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/pom.xml" />
       </list>
     </option>
   </component>
