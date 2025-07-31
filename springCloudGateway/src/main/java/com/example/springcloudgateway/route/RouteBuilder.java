@@ -13,9 +13,9 @@ public class RouteBuilder {
   @Bean
   public RouteLocator routerBuilder(RouteLocatorBuilder routeLocatorBuilder){
     return routeLocatorBuilder.routes()
-            .route("Microservice1",r->r.path("/service1/**")
+            .route("Microservice1",r->r.path("/students/**")
                     .uri("http://localhost:9099/"))
-            .route("Microservice2",r->r.path("/service2/**")
+            .route("Microservice2",r->r.path("/students/**")
                     .uri("http://localhost:9098/"))
             .build();
   }
