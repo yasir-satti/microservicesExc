@@ -4,7 +4,7 @@ spring.config.import=configserver:http://localhost:8084
 
 spring.datasource.url=jdbc:mysql://localhost:3306/gfgmicroservicesdemo
 spring.datasource.username=root
-spring.datasource.password=Mstr00slv#
+spring.datasource.password=
 
 # eureka server - dashboard http://localhost:9099
 server.port=9099
