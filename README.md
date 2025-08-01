@@ -1,8 +1,6 @@
 # Microservices
 
-Create SQS queue, and send messages to the queue. Then the m,essages can be saved to the ElastiCache.
-
-microservices tutorial using Spring Boot (Java 21) with Apache Kafka and MySQL, uses two services: 
+Microservices tutorial using Spring Boot (Java 21) with Apache Kafka and MySQL, uses two services: 
 
 1. Student Producer Service – Posts student records to Kafka. 
 2. Student Consumer Service – Reads from Kafka and stores to MySQL.
